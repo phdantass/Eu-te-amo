@@ -50,22 +50,23 @@
       box-shadow: 0 0 10px #999;
     }
 
-    .botao {
-      background-color: #ff4d88;
-      color: white;
-      padding: 12px 25px;
-      font-size: 16px;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      margin-top: 40px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      transition: background 0.3s;
-    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 28px;
+        margin-top: 20px;
+      }
 
-    .botao:hover {
-      background-color: #e6005c;
-    }
+      .mensagem {
+        font-size: 18px;
+        margin-top: 30px;
+      }
+
+      .galeria img {
+        width: 90%;
+        margin: 10px auto;
+      }
+
+      }
   </style>
 </head>
 <body>
@@ -82,16 +83,12 @@
     
     <div class="mensagem2">
         <p><i>amo muito sua companhia, quero muito estar do seu lado sempre
-            E espero que voce goste desse teste de site kkkkkkkkkkkkk
+            E espero que voce goste desse teste de site kkkkkkkkkkkkk</i></p>
 
-            EU TE AMO BOBOCAAA
-        </i></p>
+            <p><i>EU TE AMO BOBOCAAA</i></p>
     </div>
 
 
-
-  <button class="botao" onclick="window.location.href='encerrando.html'">
-    Clique aqui também💑
   </button>
 </body>
 </html>
